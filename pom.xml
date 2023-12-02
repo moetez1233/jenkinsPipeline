@@ -59,7 +59,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>jenkinProject</finalName>
+		<finalName>gestionLogz</finalName>
 	</build>
 
 </project>
