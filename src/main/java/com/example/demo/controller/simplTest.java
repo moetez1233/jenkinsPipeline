@@ -17,7 +17,7 @@ public class simplTest {
     }
     @PostMapping("/github_webHook")
     public ResponseEntity<String> verifWebHooks(){
-        return new ResponseEntity<>("hello Axeane team ", HttpStatus.OK);
+        return new ResponseEntity<>("push triggered ", HttpStatus.OK);
     }
 
 
