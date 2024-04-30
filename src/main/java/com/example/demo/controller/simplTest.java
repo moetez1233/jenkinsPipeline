@@ -14,4 +14,11 @@ public class simplTest {
     public ResponseEntity<String> getMessage(){
         return new ResponseEntity<>("hello Axeane team ", HttpStatus.OK);
     }
+    @PostMapping("github_webHook")
+    public ResponseEntity<String> verifWebHooks(){
+        return new ResponseEntity<>("hello Axeane team ", HttpStatus.OK);
+    }
+
+
+    
 }
