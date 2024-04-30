@@ -13,7 +13,7 @@ public class simplTest {
 
     @GetMapping
     public ResponseEntity<String> getMessage(){
-        return new ResponseEntity<>("hello Axeane team , this pock is for deploying application using jenkins pipline ", HttpStatus.OK);
+        return new ResponseEntity<>("hello Axeane team this pock is for deploying application using jenkins pipline ", HttpStatus.OK);
     }
     @PostMapping("/github_webHook")
     public ResponseEntity<String> verifWebHooks(){
